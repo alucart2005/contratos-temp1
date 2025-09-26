@@ -1,0 +1,32 @@
+{
+  "_format": "hh3-artifact-1",
+  "contractName": "TestConstructor",
+  "sourceName": "contracts/01.licencia.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "getOwner",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x6080604052348015600e575f5ffd5b505f80546001600160a01b03191633179055607e80602b5f395ff3fe6080604052348015600e575f5ffd5b50600436106026575f3560e01c8063893d20e814602a575b5f5ffd5b5f54604080516001600160a01b039092168252519081900360200190f3fea26469706673582212202786269362dd3d6ce0eeac9fdc1a51d2c5a1a6fe5ae9b4f3120bd394f0db3e4164736f6c634300081c0033",
+  "deployedBytecode": "0x6080604052348015600e575f5ffd5b50600436106026575f3560e01c8063893d20e814602a575b5f5ffd5b5f54604080516001600160a01b039092168252519081900360200190f3fea26469706673582212202786269362dd3d6ce0eeac9fdc1a51d2c5a1a6fe5ae9b4f3120bd394f0db3e4164736f6c634300081c0033",
+  "linkReferences": {},
+  "deployedLinkReferences": {},
+  "immutableReferences": {},
+  "inputSourceName": "project/contracts/01.licencia.sol",
+  "buildInfoId": "solc-0_8_28-7f93f4e4966951083c8ef3703b0766a0d51fd1b0"
+}

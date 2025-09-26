@@ -1,0 +1,39 @@
+{
+  "_format": "hh3-sol-build-info-1",
+  "id": "solc-0_8_28-7f93f4e4966951083c8ef3703b0766a0d51fd1b0",
+  "solcVersion": "0.8.28",
+  "solcLongVersion": "0.8.28+commit.7893614a",
+  "userSourceNameMap": {
+    "contracts/01.licencia.sol": "project/contracts/01.licencia.sol"
+  },
+  "input": {
+    "language": "Solidity",
+    "settings": {
+      "evmVersion": "cancun",
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "outputSelection": {
+        "*": {
+          "": [
+            "ast"
+          ],
+          "*": [
+            "abi",
+            "evm.bytecode",
+            "evm.deployedBytecode",
+            "evm.methodIdentifiers",
+            "metadata"
+          ]
+        }
+      },
+      "remappings": []
+    },
+    "sources": {
+      "project/contracts/01.licencia.sol": {
+        "content": "// SPDX-License-Identifier: MIT\r\n\r\npragma solidity ^0.8.28;\r\n\r\ncontract TestConstructor {\r\n\r\n  address owner;\r\n\r\n  constructor (){\r\n    owner = msg.sender;\r\n  }\r\n\r\n  function getOwner() public view returns (address) {\r\n    return owner;\r\n  }\r\n}  \r\n\r\n"
+      }
+    }
+  }
+}

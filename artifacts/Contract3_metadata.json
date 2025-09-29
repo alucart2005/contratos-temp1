@@ -1,0 +1,189 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "caller",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint32",
+						"name": "num1",
+						"type": "uint32"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint32",
+						"name": "num2",
+						"type": "uint32"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint32",
+						"name": "resultSum",
+						"type": "uint32"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint32",
+						"name": "resultProduct",
+						"type": "uint32"
+					}
+				],
+				"name": "OperationPerformed",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint32",
+						"name": "num1",
+						"type": "uint32"
+					},
+					{
+						"internalType": "uint32",
+						"name": "num2",
+						"type": "uint32"
+					}
+				],
+				"name": "calculate",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getMultiplicacion",
+				"outputs": [
+					{
+						"internalType": "uint32",
+						"name": "",
+						"type": "uint32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getResultsSumaProducto",
+				"outputs": [
+					{
+						"internalType": "uint32",
+						"name": "",
+						"type": "uint32"
+					},
+					{
+						"internalType": "uint32",
+						"name": "",
+						"type": "uint32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getSuma",
+				"outputs": [
+					{
+						"internalType": "uint32",
+						"name": "",
+						"type": "uint32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"calculate(uint32,uint32)": {
+					"details": "Calcula la suma y multiplicación de dos números",
+					"params": {
+						"num1": "Primer número (entero sin signo)",
+						"num2": "Segundo número (entero sin signo)"
+					}
+				},
+				"getMultiplicacion()": {
+					"details": "Devuelve el producto almacenado",
+					"returns": {
+						"_0": "El producto de los dos números"
+					}
+				},
+				"getResultsSumaProducto()": {
+					"details": "Devuelve ambos resultados en una sola llamada (optimización de gas)",
+					"returns": {
+						"_0": "tuple con suma y producto"
+					}
+				},
+				"getSuma()": {
+					"details": "Devuelve la suma almacenada",
+					"returns": {
+						"_0": "La suma de los dos números"
+					}
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/5-contrac_3.sol": "Contract3"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/5-contrac_3.sol": {
+			"keccak256": "0xf880ee5fc38ce8db1804b0f380fdaf2d25d098522440674d23e0378fda88324b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3dbace947d4ace3da923d3f1399ae9c62d2025de479f1cef0ac45d4fc76d3bee",
+				"dweb:/ipfs/QmUkAEwwXNiPL3DhUDT827Uu9aYzBvYjaMQLUaDmRbXHVc"
+			]
+		}
+	},
+	"version": 1
+}

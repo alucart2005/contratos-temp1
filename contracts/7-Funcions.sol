@@ -3,7 +3,7 @@ pragma solidity ^0.8.21;
 
 contract TestFuncions {
 
-    address[] private direcciones;
+    /*address[] private direcciones;
     uint public tamano;
 
     function agregarDirecion() public  {
@@ -21,5 +21,16 @@ contract TestFuncions {
 
     function tamanofunciones() public {
         tamano = direcciones.length;
+    }*/
+
+    // Trabajar con funciones privadas
+    struct Futbolista {
+        string nombre;
+        uint dorsal;
+        address direccion;
     }
+
+    bytes32 public hashFutbolista;
+
+    
 }
